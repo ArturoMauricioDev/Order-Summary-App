@@ -1,10 +1,15 @@
 import './styles/App.css';
+import { Main } from './Main';
+import { Header } from './Header'
+import Buttons from './Buttons';
 
 function App() {
   return (
-    <div className="App">
-      App
-    </div>
+    <article className="payment-card">
+      <Header/>
+      <Main />
+      <Buttons />
+    </article>
   );
 }
 

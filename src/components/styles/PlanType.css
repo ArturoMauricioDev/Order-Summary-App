@@ -1,0 +1,7 @@
+.plan__type-plan :nth-child(1) {
+    color: var(--Dark-blue);
+    font-weight: 900;
+}
+.plan__type-plan :nth-child(2) {
+    color: var(--Desaturated-blue);
+}

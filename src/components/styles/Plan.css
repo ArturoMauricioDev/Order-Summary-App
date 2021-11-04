@@ -1,0 +1,24 @@
+.plan {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 8px 24px 24px 24px;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: var(--Very-pale-blue);
+    align-items: center;
+    font-weight: 900;
+  }
+  .plan:nth-child(3) {
+    color: var(--a-color);
+    font-weight: 900;
+    align-items: center;
+  }
+  .plan__type-plan:nth-child(1) {
+    color: var(--Dark-blue);
+    font-weight: 900;
+  }
+  .plan__type-plan :nth-child(2) {
+    color: var(--Desaturated-blue);
+  }
+  
